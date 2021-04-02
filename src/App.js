@@ -1,10 +1,15 @@
 import './App.css';
+import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Henrik Lauritsen</h1>
-      <h2>Software developer, musician & craft beer enthusiast</h2>
+      <Header />
+      <div className='content'>
+        <p>Hi there!</p>
+      </div>
+      <Footer />
     </div>
   );
 }
