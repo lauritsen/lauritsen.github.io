@@ -16,7 +16,7 @@ const MusicRelease = (props) => (
         <div>
           {props.release.band}
           <br />
-          {props.release.title} {props.release.year}
+          {props.release.title} ({props.release.year})
         </div>
         <div>{props.release.myRole}</div>
       </div>
