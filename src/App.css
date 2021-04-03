@@ -7,7 +7,7 @@ body {
 }
 
 .content {
-  max-width: 42rem;
+  width: calc(100% - 2rem);
   margin-left: auto;
   margin-right: auto;
   padding: 0 0.25rem;
@@ -48,4 +48,54 @@ body {
   height: 3rem;
   fill: white;
   margin-right: 0.25rem;
+}
+
+.discography {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.music-release {
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.5);
+  flex: 0 1 100%;
+  margin-bottom: 1rem;
+}
+
+.music-release:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.music-release > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.release-description {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 30rem) {
+  .music-release {
+    flex: 0 1 49%;
+  }
+
+  .content {
+    max-width: 42rem;
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .content {
+    max-width: 58rem;
+  }
+
+  .music-release {
+    flex: 0 1 24%;
+  }
+}
+
+.cover-art {
+  width: 100%;
 }

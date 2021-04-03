@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
+import Music from './Music';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <div className='content'>
         <p>Hi there!</p>
+        <Music />
       </div>
       <Footer />
     </div>
