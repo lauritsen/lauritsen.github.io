@@ -43,6 +43,14 @@ const Discography = [
     href: 'https://open.spotify.com/album/3KKlBuJVxnRmPAJqjT0FQo',
   },
   {
+    band: 'Røgsignal',
+    title: 'weekend',
+    year: 2022,
+    myRole: 'Bass',
+    cover: 'https://i.scdn.co/image/ab67616d00001e02225d79e78f1df0febc375d92',
+    href: 'https://open.spotify.com/album/7DJMvczVnPW6IpinTvwSIg',
+  },
+  {
     band: 'DRöN',
     title: 'Judas',
     year: 2013,
