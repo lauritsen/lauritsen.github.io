@@ -80,7 +80,7 @@ const Music = () => (
   <div className='music'>
     <p>I like music. Here's some music I took part in creating.</p>
     <div className='discography'>
-      {Discography.sort((a, b) => a.year - b.year).map((release, index) => (
+      {Discography.sort((a, b) => b.year - a.year).map((release, index) => (
         <MusicRelease release={release} key={index} />
       ))}
     </div>
