@@ -27,7 +27,7 @@ const Discography = [
     href: 'https://open.spotify.com/album/1qb4ndh1rCmSzbhOhWmy3H',
   },
   {
-    band: 'Røgsignal',
+    band: 'Røgsignal & ITYA',
     title: 'Live I Garagen',
     year: 2018,
     myRole: 'Bass',
